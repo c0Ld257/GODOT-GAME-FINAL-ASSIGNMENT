@@ -57,7 +57,7 @@ All art assets across the game were all self-made in Photoshop or Godot.
 # What I Am Most Proud of in This Assignment
 I'm proud about the whole project but mostly that I could combine animations with changing cameras to create a godot game.
 # What Did I Learn?
-I learned how to use godot as well as 
+I learned how to use godot as well as how to script in gdscript and use lighting, texturing, animation and different scenes to create a whole game.
 
 
 
