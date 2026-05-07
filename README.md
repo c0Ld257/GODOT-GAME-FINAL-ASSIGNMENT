@@ -48,30 +48,16 @@ Third minigame, get to the bus and go to college.
 | bullet.gd     | Self Written | Controls the bullets shot from the gun. |
 | busStop.gd     | Self Written | Changes camera when you reach bus stop and plays the animation. |
 | coin.gd    | Self Written | Collects and deletes 1 coin through collision while adding it to the counter. |
-| coinmanager.gd     | Self Written | keeps coins stored and changes value on the ui. |
-| pet_cats.gd     | Self Written | Controls the feed-cats minigame, plays the cats' meows, and sends the player to the next scene. |
-| catbowl.gd     | Self Written | Fills the cat bowls when the cat food is put on them. |
-| cat_food.gd     | Self Written | Fills the cat bowls when dragged onto them. |
-| runbus.gd     | Self Written | Makes the scene end and transition to the main menu 3 seconds after entering the bus. |
-| player.gd     | Self Written | Player controller. |
-| car_spawner.gd     | Self Written | Spawns car scenes within a certain area, and deactivates when the player gets close enough to it. |
-| car.gd     | Self Written | Makes cars move at a constant speed along the z-axis and gives the cars random colours. |
-| car_crashed.gd     | Self Written | Gives the cars random colours. |
-| enemy_spawner.gd     | Self Written | Spawns the enemy once the player enters an Area3d. |
-| enemy.gd     | Self Written | Makes the enemy fall and start following the player after the cutscene, trying to eliminate the player in an Area3D (hitbox). |
-| cutscene_controller.gd     | Self Written | Causes and controls the cutscene once the player enters an Area3D. |
-| bus.gd     | Self Written | Makes the bus move along the x axis and moves the player's camera once they enter its Area3D. |
-| credits.gd   | Self Written | Brings player back to the main menu when the screen is clicked. |
-| intro1.gd     | Self Written | Click to go to the next sequence. |
-| intro2.gd     | Self Written | Click to go to the next sequence. |
-| intro3.gd     | Self Written | Click to go to the next sequence. |
-| intro4.gd     | Self Written | Click to go to the next sequence. |
-| intro5.gd     | Self Written | Click to go to the next sequence. |
-| intro6.gd     | Self Written | Click to go to the next sequence and start the timer. |
-| music.gd   | Self Written | Plays the background music globally. |
-| timer_ui.gd   | Self Written | Controls the timer through global functions called by other scripts and tweens. |
-| game_over.gd   | Self Written | Resets the game's scores, timer, and connects try again and menu buttons to their respective scenes. |
-| transition_screen.gd   | Self Written | Controls the transition screen between scenes through global functions called by other scripts. |
-| chicken.gltf  | Self Made (Blockbench) | Model made for the chicken enemy. |
+| collectCoin.gd     | Self Written | keeps coins stored . |
+| Display.gd    | Self Written | Displays the coin count on the ui. |
+| gun.gd     | Self Written | Shoots bullets and destroyes certain structures. |
+
+All art assets across the game were all self-made in Photoshop or Godot.
+
+# What I Am Most Proud of in This Assignment
+I'm proud about the whole project but mostly that I could combine animations with changing cameras to create a godot game.
+# What Did I Learn?
+I learned how to use godot as well as 
+
 
 
