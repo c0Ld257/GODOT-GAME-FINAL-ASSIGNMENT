@@ -59,5 +59,19 @@ I'm proud about the whole project but mostly that I could combine animations wit
 # What Did I Learn?
 I learned how to use godot as well as how to script in gdscript and use lighting, texturing, animation and different scenes to create a whole game.
 
+# Code Examples
+Main menu 
+````
+extends Control
+
+func _ready() -> void:
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+
+
+	
+func _on_play_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://2dS.tscn")
+	
+````
 
 
