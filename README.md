@@ -6,6 +6,9 @@ Class Group: TU984
 # Gameplay video
 https://www.youtube.com/watch?v=HMOLhn-QIyk&feature=youtu.be
 
+# Itch link
+https://dariuspalaghie.itch.io/wake-up
+
 # Screenshots
 Bus stop objective
 <img width="1903" height="1078" alt="Screenshot 2026-05-07 232021" src="https://github.com/user-attachments/assets/16022380-c281-4614-b5bf-0fe0464e0df7" />
