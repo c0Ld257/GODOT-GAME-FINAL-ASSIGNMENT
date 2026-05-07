@@ -74,4 +74,20 @@ func _on_play_button_pressed() -> void:
 	
 ````
 
+Coin Collection
+````
+extends Node3D
+
+var item_counter = 0 
+var total_items = 5
+var bus=false
+
+func _on_body_entered(body: Node3D) -> void:
+	if body.name=="FirstPersonCharacter":
+		CoinManager.add_coins(1)
+		self.queue_free()
+
+	
+````
+	
 
